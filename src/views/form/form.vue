@@ -170,6 +170,7 @@
       submitForm(formName) {
         this.$refs[formName].validate((valid) => {
           if (valid) {
+            alert("nihao ");
             let para = Object.assign({}, this.ruleForm);
             console.log(para);
             this.$message({

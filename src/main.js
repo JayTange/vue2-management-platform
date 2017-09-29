@@ -10,6 +10,7 @@ import Index from './views/index/index';
 import Table from './views/table/table';
 import Form from './views/form/form';
 import ue from './views/editor/editor';
+import Rate from './views/rate/rate.vue';
 import 'font-awesome/css/font-awesome.min.css';
 import Mock from './mock/mock';
 
@@ -51,7 +52,8 @@ let routes = [
       {path: '/index', component: Index, name: 'index', class: 'fa-line-chart'},
       {path: '/table', component: Table, name: 'table', class: 'fa-table'},
       {path: '/form', component: Form, name: 'form', class: 'fa-newspaper-o'},
-      {path: '/editor', component: ue, name: 'editor', class: 'fa-plug'}
+      {path: '/editor', component: ue, name: 'editor', class: 'fa-plug'},
+      {path: '/rate', component: Rate, name: 'rate', class: 'fa-rate'}
     ]
   }
 ];

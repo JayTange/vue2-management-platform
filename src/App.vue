@@ -56,12 +56,12 @@
   }
   body {
     font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
-    background-color: #F2F2F2;
+    background-color: #fafbff;
   }
   .menu,
   .el-menu {
     height: 100%;
-    background-color: #E6E6E6;
+    background-color: #fafbff;
     position: fixed;
     float: left;
   }
